@@ -136,10 +136,11 @@ footer {
     }
 
     nav a {
-        display: inline-block;
-        margin: 5px 8px;
-        font-size: 14px;
-    }
+    display: inline-block;
+    margin: 5px 6px;
+    font-size: 14px;
+    white-space: nowrap;
+}
 
     #home {
         padding: 75px 18px;
