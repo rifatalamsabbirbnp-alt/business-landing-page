@@ -20,10 +20,12 @@ header {
     color: white;
     text-align: center;
     padding: 30px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
 }
 
 header h1 {
     font-size: 36px;
+    letter-spacing: 1px;
 }
 
 nav {
@@ -40,7 +42,13 @@ nav a {
     margin: 0 15px;
     font-weight: bold;
 }
+nav a {
+    transition: color 0.3s ease;
+}
 
+nav a:hover {
+    color: #bfdbfe;
+}
 nav a:hover {
     color: #93c5fd;
 }
@@ -101,6 +109,7 @@ section h2 {
     padding: 25px;
     background: #f1f5f9;
     border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 12px #00000010;
 }
 
@@ -197,7 +206,94 @@ footer {
     font-size: 22px;
     margin-right: 10px;
     vertical-align: middle;
-    #services article:hover .service-icon {
+    transition: transform 0.3s ease;
+}
+
+#services article:hover .service-icon {
     transform: scale(1.15);
 }
+#about {
+    background: #f8fafc;
+    padding: 60px 25px;
+    border-radius: 16px;
+    margin: 40px auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+#about h2 {
+    color: #1e3a8a;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    color: #475569;
+    font-size: 17px;
+    line-height: 1.9;
+    max-width: 750px;
+    margin: 0 auto;
+}#contact {
+    background: linear-gradient(135deg, #eff6ff, #dbeafe);
+    padding: 60px 25px;
+    border-radius: 18px;
+    margin: 40px auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #1e3a8a;
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+
+#contact p {
+    color: #475569;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+#contact a {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+#contact a:hover {
+    background: #1d4ed8;
+    transform: translateY(-3px);
+}
+
+#contact .contact-email {
+    margin-top: 20px;
+    font-size: 14px;
+    overflow-wrap: anywhere;
+}@media (max-width: 600px) {
+    #about,
+    #contact {
+        padding: 35px 18px;
+        margin: 25px 12px;
+        border-radius: 12px;
+    }
+
+    #about h2,
+    #contact h2 {
+        font-size: 26px;
+    }
+
+    #about p,
+    #contact p {
+        font-size: 15px;
+    }
+
+    #contact a {
+        padding: 12px 22px;
+    }
 }
