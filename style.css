@@ -176,12 +176,17 @@ footer {
 
 #services article h3 {
     font-size: 21px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    line-height: 1.4;
 }
-
 #services article p {
     color: #475569;
     font-size: 15px;
-}.service-icon {
+    line-height: 1.7;
+    margin-top: 8px;
+}
+.service-icon {
     display: inline-flex;
     align-items: center;
     justify-content: center;
