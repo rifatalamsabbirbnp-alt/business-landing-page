@@ -323,4 +323,8 @@ footer p {
     background: #1d4ed8;
     transform: translateY(-4px);
     transition: 0.3s ease;
+}.hidden {
+    display: none;
+}#backToTop.hidden {
+    display: none;
 }
