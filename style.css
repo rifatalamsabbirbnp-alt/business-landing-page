@@ -181,4 +181,15 @@ footer {
 #services article p {
     color: #475569;
     font-size: 15px;
+}.service-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #2563eb, #8b5cf6);
+    font-size: 22px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
