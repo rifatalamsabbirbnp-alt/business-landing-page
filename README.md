@@ -1,30 +1,19 @@
-Bright Business Landing Page
+# Business Landing Page
 
-A modern and responsive business landing page built with HTML, CSS, and JavaScript.
+A modern and responsive business website built using HTML and CSS.
 
-Features
+## Features
+- Responsive design
+- Modern layout
+- Mobile-friendly
+- Clean HTML and CSS
 
-- Responsive website design
-- Modern and clean layout
-- Interactive elements
-- Custom favicon
-
-Technologies Used
-
+## Technologies
 - HTML5
 - CSS3
-- JavaScript
 
-Live Demo
-
+## Live Demo
 https://rifatalamsabbirbnp-alt.github.io/business-landing-page/
 
-Source Code
-
-https://github.com/rifatalamsabbirbnp-alt/business-landing-page
-
-Author
-
+## Developer
 Rifat Alom
-
-Aspiring Web Developer, continuously learning and building web projects.
